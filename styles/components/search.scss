@@ -1,0 +1,11 @@
+.search {
+    display: flex;
+    place-content: center;
+    margin: 1rem 0;
+
+    &__input {
+        width: 100%;
+        max-width: 31rem;
+        height: 2rem;
+    }
+}

@@ -1,0 +1,15 @@
+.gallery {
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        place-content: center;
+    }
+    &__item {
+        height: 20rem;
+        width: 15rem;
+        margin: 0.5rem;
+        border: 1px solid rgb(219, 219, 219);
+        display: flex;
+        place-items: center;
+    }
+}
